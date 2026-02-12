@@ -141,3 +141,20 @@ Final checklist status and confidence are determined using the following rules:
 -Vision never overrides the inspector’s spoken decision
 
 If no usable evidence exists → evidence_frames = [] (no fake frames)
+
+## Output Schema
+
+```json
+{
+  "item_id": 5,
+  "status": "YES",
+  "comment": "the pressure gauge is in green",
+  "date": null,
+  "evidence_frames": [
+    {"timestamp": 22.79},
+    {"timestamp": 24.39},
+    {"timestamp": 20.79}
+  ],
+  "confidence_score": 1.0
+}
+```
