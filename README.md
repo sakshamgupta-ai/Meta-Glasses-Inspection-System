@@ -98,6 +98,7 @@ If temporal grounding fails, downstream logic must explicitly handle the
 absence of timestamps.
 
 ## 4. Frame Sampling & Embedding
+
 -Video frames are sampled uniformly across the full duration
 -Image embeddings are computed once per video using CLIP
 -Embeddings are stored on GPU for fast similarity search
@@ -112,6 +113,7 @@ of speech-aligned timestamps.
 ## A. Local (Speech-Anchored) Retrieval
 
 Used for checklist items where speech and visual observation are closely coupled:
+
 -Presence
 -Accessibility
 -Locking pin & tamper seal
